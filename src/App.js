@@ -1,16 +1,17 @@
-import { useState } from 'react';
-import { Typography } from '@mui/material';
+import { CssBaseline, Container } from "@mui/material";
+import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import Album from "./components/Album";
 
 function App() {
-  const [count, setcount] = useState(0)
   return (
     <>
-    <button onClick={()=>{ setcount(count + 1) }}>
-      {count}
-    </button>
-    <Typography variant='H1'>
-      dame
-    </Typography>
+      <CssBaseline />
+      <NavBar />
+      <Container maxWidth="sm">
+        <Hero />
+        <Album />
+      </Container>
     </>
   );
 }
