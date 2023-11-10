@@ -3,7 +3,7 @@ import { AppBar, Toolbar, Typography } from '@mui/material'
 import { PhotoCamera } from '@mui/icons-material'
 const NavBar = () => {
   return (
-    <AppBar position="relative" sx={{ backgroundColor: "#000" }}>
+    <AppBar position="sticky" sx={{ backgroundColor: "#000" }}>
         <Toolbar>
           <PhotoCamera sx={{ margin: 2 }} />
           <Typography variant="h6">Dame's Album</Typography>

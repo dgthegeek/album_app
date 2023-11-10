@@ -9,8 +9,8 @@ const Hero = () => {
         My Photo Album
       </Typography>
       <Typography align="center" color="textSecondary" variant="h5">
-        Im happy to share with you these cute photos <br />
-        of my dog 'Alex' ! <br /> An adoooorable Husky <Favorite />
+        Im happy to share with you these beautifull photos <br />
+        from unsplash ! <br /> They are just amazing ! <Favorite />
       </Typography>
     </>
   );

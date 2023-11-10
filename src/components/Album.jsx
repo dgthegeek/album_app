@@ -4,7 +4,7 @@ import { DogList } from "../constants/constants";
 
 const Album = () => {
   return (
-    <Box mt={10}>
+    <Box mt={10} >
       <Grid container spacing={2} justifyContent="center">
         {DogList.map((dog) => (
           <Grid item>
